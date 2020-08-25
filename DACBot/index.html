@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./images/title-logo.png">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>DACBot</title>
+</head>
+<body onscroll="hideNavBar()" ondblclick="hideChatBar()">
+    <section class="main-body" onclick="hideNavBar()">
+        <section id="header">
+            <div class="container">
+                <img src="images/DAClogo.jpg" class="logo" />
+                <div class="header-text">
+                    <h1>The purpose is to bring knowledge to you without making you feel retarded</h1>
+                    <span class="square"></span>
+                    <p>Asking questions have never been easier and as fun. You won't feel stupid asking important questions
+                        We know talking to someone sometimes can be a bit intimidating.. <br>Taking to a bot makes that a lot easier!
+                    </p>
+                </div>
+                <button class="common-btn">Read More ></button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ABOUT-->
+        <section id="about">
+            <div class="about-left-col">
+                <img src="./images/about.png"/>
+            </div>
+            <div class="about-right-col">
+                <div class="about-text">
+                    <h1>ABOUT US / FAQ's</h1>
+                    <span class="square"></span>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting
+                    </p><br><br>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                    <h2>"Learning is not attained by chance, it must be sought for with and attended with ardor and attended to with deligence"</h2>
+                    <h3>---- Abigail Adams</h3>
+                </div>
+            </div>
+        </section>
+
+        <!--Features-->
+        <section id="features">
+            <div class="feature-row">
+                <div class="feature-col">
+                    <img src="./images/pic-1.png"/>
+                    <h4>Learn Anywhere</h4>
+                    <p>We provide the flexibility for you to access from any device</p>
+                </div>
+                <div class="feature-col">
+                    <img src="./images/pic-2.png"/>
+                    <h4>Expert Teacher</h4>
+                    <p>Get the correct answers from our Bot</p>
+                </div>
+                <div class="feature-col">
+                    <img src="./images/pic-3.png"/>
+                    <h4>Fast Responses</h4>
+                    <p>No need to wait for a teacher to answer your queries. Get instant answers at any time of the day</p>
+                </div>
+            </div>
+            <div class="feature-btn">
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <button id="start-chat" onclick="displayChat()" class="common-btn">Start your Chat</button>
+            </div>
+        </section>
+
+        <!--COURSES-->
+        <section id="courses">
+            <div class="container course-row">
+                <div class="course-left-col">
+                    <div class="course-text">
+                        <h1>Browse</h1>
+                        <span class="square"></span>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s 
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived not only five centuries, but also the leap into electronic typesetting
+                        </p>
+                        <button class="common-btn">Browse</button>
+                        <div class="line">
+                            <span class="line-1"></span><br>
+                            <span class="line-2"></span><br>
+                            <span class="line-3"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-right-col">
+                    <img src="./images/course.png" />
+                </div>
+            </div>
+        </section>
+
+        <!--OFFERS-->
+        <section id="offers">
+            <div class="about-left-col">
+                <img src="./images/offer.png"/>
+            </div>
+            <div class="about-right-col">
+                <div class="about-text">
+                    <h1>Limitless learning, <br>Limitless possibilities</h1>
+                    <span class="square"></span>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting
+                    </p>
+                    <!--<button class="common-btn">Start Free Trail</button>--><br><br>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                    <h2>"Learning is not attained by chance, it must be sought for with and attended with ardor and attended to with deligence"</h2>
+                    <h3>---- Abigail Adams</h3>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTACT-->
+        <section id="contact">
+            <div class="container contact-row">
+                <div class="contact-left-col">
+                    <h1>Leave a message and we'll get back to you as soon as we can!</h1>
+                    <div id="form-elements">
+                        <form>
+                            <input type="text" placeholder="Enter Name" />
+                            <input type="email" placeholder="Enter Email" />
+                            <textarea rows="5" placeholder="Enter your message"></textarea>
+                            <div class="btn-box">
+                                <button onclick="sendMessage()" class="common-btn">Send  <i class="fas fa-paper-plane"></i></button>
+                                <p>or</p>
+                                <a class="common-btn" href="mailto:pratikghare888@gmail.com">Email</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+                <div class="contact-right-col">
+                    <img src="./images/contact.png" />
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <section id="footer">
+            <div class="container footer-row">
+                <hr>
+                <div class="footer-left-col">
+                    <div class="footer-links">
+                        <div class="link-title">
+                            <h4>Product</h4>
+                            <small>Our Plan</small><br>
+                            <small>Free Trail</small>
+                        </div>
+                        <div class="link-title">
+                            <h4>About us</h4>
+                            <small>Request Demo</small><br>
+                            <small>FAQs</small>
+                        </div>
+                        <div class="link-title">
+                            <h4>Support</h4>
+                            <small>Features</small><br>
+                            <small>Contact Us</small>
+                        </div>
+                        <div class="link-title">
+                            <h4>Explore</h4>
+                            <small>Find a non-profit</small><br>
+                            <small>Corporate Solution</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right-col">
+                    <div class="footer-info">
+                        <div class="copyright-text">
+                            <small>support@cdac.in</small><br>
+                            <small>&copy; 2020 CDAC-Feb20</small>
+                        </div>
+                        <div class="footer-logo">
+                            <img src="./images/DAClogo.jpg">
+                            <button class="common-btn">English</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!--Navigation-->
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header" onclick="hideNavBar()">HOME</a></li>
+            <li><a href="#about" onclick="hideNavBar()">ABOUT US / FAQ's</a></li>
+            <li><a href="#features" onclick="hideNavBar()">FEATURES</a></li>
+            <li><a href="#courses" onclick="hideNavBar()">COURSES</a></li>
+            <li><a href="#offers" onclick="hideNavBar()">OFFER</a></li>
+            <li><a href="#contact" onclick="hideNavBar()">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="./images/menu.jpg" id="menuBtn" />
+
+    <!--ChatBox-->
+    <section id="chat-box">
+        <div id="chat-section">
+            <div class="welcome-image">
+                <img id="welcome-image" src="./images/welcome.png">
+            </div>
+            <div id="chat-area">
+                <div class="bot-text">
+                    <div class="text-message">
+                        <p style="border-radius: 8px 2px 8px 8px;">Hi, my name is DACbot! I'm here to fullfill all the queries related to DAC course! What's your Name?</p>
+                        <span class="date-time enter-date">25 Aug 2020 14:47</span>
+                    </div>
+                    <div style="width: 18%;"></div>
+                    <!--<img src="./images/bot-profile.png"/>-->
+                </div>
+                <div class="user-text">
+                    <img src="./images/user-profile.webp"/>
+                    <div class="text-message">
+                        <p>My name is Pratik</p>
+                        <span class="date-time enter-date">25 Aug 2020 14:47</span>
+                    </div>
+                </div>
+                <div class="bot-text">
+                    <div class="text-message">
+                        <p>Hello Pratik! How may I help you?</p>
+                        <span class="date-time enter-date">25 Aug 2020 14:47</span>
+                    </div>
+                    <img src="./images/bot-profile.png"/>
+                </div>
+                <div class="user-text">
+                    <img src="./images/user-profile.webp"/>
+                    <div class="text-message">
+                        <p>Define Artificial Intelligence</p>
+                        <span class="date-time enter-date">25 Aug 2020 14:47</span>
+                    </div>
+                </div>
+                <div class="bot-text">
+                    <div class="text-message">
+                        <p>
+                            Artificial intelligence (AI) refers to the simulation of human intelligence in machines 
+                            that are programmed to think like humans and mimic their actions. 
+                            The term may also be applied to any machine that exhibits traits associated with a 
+                            human mind such as learning and problem-solving
+                        </p>
+                        <span class="date-time enter-date">25 Aug 2020 14:47</span>
+                    </div>
+                    <img src="./images/bot-profile.png"/>
+                </div>
+                <div class="user-text">
+                    <img src="./images/user-profile.webp"/>
+                    <div class="text-message">
+                        <p>What is Socket?</p>
+                        <span class="date-time enter-date">25 Aug 2020 14:47</span>
+                    </div>
+                </div>
+                <div class="bot-text">
+                    <div class="text-message">
+                        <p>
+                            A socket is one endpoint of a two way communication link between two programs running on the network. 
+                            The socket mechanism provides a means of inter-process communication (IPC) 
+                            by establishing named contact points between which the communication take place.
+                        </p>
+                        <span class="date-time enter-date">25 Aug 2020 14:47</span>
+                    </div>
+                    <img src="./images/bot-profile.png"/>
+                </div>
+                <div class="user-text">
+                    <img src="./images/user-profile.webp"/>
+                    <div class="text-message">
+                        <p>Thank you!</p>
+                        <span class="date-time enter-date">25 Aug 2020 14:47</span>
+                    </div>
+                </div>
+                <div class="bot-text">
+                    <div class="text-message">
+                        <p>You're Welcome</p>
+                        <span class="date-time enter-date">25 Aug 2020 14:47</span>
+                    </div>
+                    <img src="./images/bot-profile.png"/>
+                </div>
+                <div class="user-text">
+                    <img src="./images/user-profile.webp"/>
+                    <div class="text-message">
+                        <p>Dummy text</p>
+                        <span class="date-time enter-date">25 Aug 2020 14:47</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="input-area">
+            <textarea id="input-chat-text" type="text" rows="2" placeholder="Ask something?"></textarea>
+            <button id="send-chat" onclick="sendChat()"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </section>
+    <i id="back-icon" class="fas fa-arrow-left"></i>
+    <img src="./images/titlelogo.jpg" id="chatBtn" />
+
+    <!--Social Icons
+    <section class="social-icons">
+        <img src="./images/facebook.png"/>
+        <img src="./images/instagram.png"/>
+        <img src="./images/twitter.png"/>
+        <img src="./images/linkedin.png"/>
+    </section>-->
+</body>
+<script src="./main.js">
+</script>
+</html>
